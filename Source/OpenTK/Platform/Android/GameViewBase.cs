@@ -61,7 +61,7 @@ namespace OpenTK
             get {
                 return graphicsContext;
             }
-            protected set {
+            set {
                 graphicsContext = value;
                 OnContextSet (null);
             }
